@@ -1,0 +1,46 @@
+Abre en tu navegador:
+
+http://empresa-a.test:8000/posts
+
+Verás: "Posts de Empresa A"
+
+1 post (solo el de Empresa A)
+
+Tenant ID: 1
+
+http://empresa-b.test:8000/posts
+
+Verás: "Posts de Empresa B"
+
+1 post (solo el de Empresa B)
+
+Tenant ID: 2
+
+Paso 9: Probar autenticación
+Ve a:
+
+http://empresa-a.test:8000/register
+
+Registra un nuevo usuario - se asignará automáticamente al tenant correcto
+
+
+
+php artisan serve --host=0.0.0.0 --port=8000
+
+
+
+
+
+# Limpiar cache completo
+php artisan config:clear
+php artisan cache:clear
+php artisan view:clear
+
+# Limpiar Vite
+rm -rf public/build node_modules/.vite
+
+# Rebuild
+npm run build
+
+# Probar
+php artisan serve --host=0.0.0.0 --port=8000
