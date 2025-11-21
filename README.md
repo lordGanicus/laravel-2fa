@@ -1,7 +1,7 @@
 
 
 #  Implementacion de Relaciones - 2fa - Laravel + Inertia + React
---------------------------------------------------------------   Tiene el segundo factor de autenticacion ------------------------------------------------------------
+--------------------------------------------------  Tiene el segundo factor de autenticacion ----------------------------------------------------
 
 Este proyecto es una implementación completa de **tres tipos de relaciones de bases de datos** en Laravel, usando **Inertia.js + React** como frontend.  
 Incluye ejemplos prácticos de relaciones 1:1, 1:N y N:N con datos de prueba y documentación completa.
