@@ -1,5 +1,7 @@
+
+
 #  Implementacion de Relaciones - 2fa - Laravel + Inertia + React
-------------------------------------------------------------Tiene el segundo factor de autenticacion ------------------------------------------------------------
+--------------------------------------------------------------   Tiene el segundo factor de autenticacion ------------------------------------------------------------
 
 Este proyecto es una implementación completa de **tres tipos de relaciones de bases de datos** en Laravel, usando **Inertia.js + React** como frontend.  
 Incluye ejemplos prácticos de relaciones 1:1, 1:N y N:N con datos de prueba y documentación completa.
@@ -46,17 +48,19 @@ DB_USERNAME=tu_usuario
 DB_PASSWORD=tu_password
 
 🛠 6. Ejecutar migraciones
+
 php artisan migrate
 
+```  
 
-🔐 Características del sistema 2FA
+#### 🔐 Características del sistema 2FA
 
 Activar o desactivar 2FA por usuario
 
 Generación de códigos QR
 
 Generación de Recovery Codes
-
+            
 Validación de códigos TOTP
 
 Middleware protegido con 2FA
@@ -67,8 +71,7 @@ Ejecutar el servidor y en el front
 
 composer dev
 
-🧑 Autor
+##### 🧑 Autor
 
 lordGanicus
 📧 ribertxdxd@gmail.com
-🌐 GitHub
